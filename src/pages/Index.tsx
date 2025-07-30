@@ -34,10 +34,11 @@ const Index = () => {
           
           {/* Main message */}
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Welcome back home,
             </h1>
-            <h2 className="text-4xl md:text-6xl font-bold text-romantic-secondary mb-8 leading-tight">
+            <h2 className="text-4xl md:text-6xl font-vibes font-bold text-romantic-warm mb-8 leading-tight drop-shadow-lg" 
+                style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
               my beautiful ogre
             </h2>
           </div>
@@ -53,7 +54,7 @@ const Index = () => {
           
           {/* Romantic message */}
           <div className="animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-            <p className="text-xl md:text-2xl text-white/90 font-medium italic">
+            <p className="text-xl md:text-2xl text-white/90 font-dancing font-medium italic">
               Where love lives and hearts beat as one
             </p>
           </div>

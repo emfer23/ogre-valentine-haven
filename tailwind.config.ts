@@ -71,6 +71,12 @@ export default {
 					rose: 'hsl(var(--romantic-rose))'
 				}
 			},
+			fontFamily: {
+				'dancing': ['Dancing Script', 'cursive'],
+				'playfair': ['Playfair Display', 'serif'],
+				'vibes': ['Great Vibes', 'cursive'],
+				'sans': ['system-ui', 'sans-serif'],
+			},
 			backgroundImage: {
 				'gradient-romantic': 'var(--gradient-romantic)',
 				'gradient-warm': 'var(--gradient-warm)',
