@@ -34,11 +34,10 @@ const Index = () => {
           
           {/* Main message */}
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-5xl md:text-7xl font-vibes font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Welcome back home,
             </h1>
-            <h2 className="text-4xl md:text-6xl font-vibes font-bold text-romantic-warm mb-8 leading-tight drop-shadow-lg" 
-                style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
+            <h2 className="text-4xl md:text-6xl font-dancing font-bold text-romantic-pink mb-8 leading-tight drop-shadow-lg">
               my beautiful ogre
             </h2>
           </div>
